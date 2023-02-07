@@ -1,0 +1,30 @@
+#features {
+    padding: 5% 2%;
+}
+
+.feature-icon {
+    color: #053273;
+    transition: color .4s ease;
+}
+
+#feature1, #feature2, #feature3 {
+    cursor: default;
+}
+
+#feature1:hover > .feature-icon, #feature1:hover > h4,
+#feature2:hover > .feature-icon, #feature2:hover > h4,
+#feature3:hover > .feature-icon, #feature3:hover > h4
+ {
+    color: #0d6efd;
+}
+
+.features-title {
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.feature-sub {
+    font-weight: 600;
+    color: #053273;
+    transition: color .4s ease;
+}

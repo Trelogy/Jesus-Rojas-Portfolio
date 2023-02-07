@@ -1,0 +1,8 @@
+.cover-container {
+    background: linear-gradient(rgba(255,255,255, 0),rgba(0, 0, 0, 0.2))!important;
+    opacity: transparent;
+    height: auto;
+    overflow: visible;
+    top: 0;
+    left: 0;
+}

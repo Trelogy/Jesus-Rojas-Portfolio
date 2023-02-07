@@ -1,0 +1,16 @@
+.globe-icon {
+    margin-right: 10px;
+}
+
+.lng {
+    padding-right: 0;
+}
+
+.footer-link {
+    color: #6c757d!important;
+    transition: color 0.4s ease;
+}
+
+.footer-link:hover {
+    color: #343a40!important;
+}
