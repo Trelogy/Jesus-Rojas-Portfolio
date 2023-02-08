@@ -11,12 +11,12 @@ const Header = () => {
     <div className="text-center text-bg-primary">
       <Cover className="px-5 py-5 header-mobile">
         <div className="box">
-        <MachineWritting className="display-5 fw-bold" />
+        <MachineWritting className="display-4 fw-bold" />
         </div>
         <div className="col-lg-6 mx-auto">
-          <p className="lead pt-2 mb-4">
+          <h4 className="pt-2 mb-4">
             Front End Developer / Back End Developer
-          </p>
+          </h4>
           <p className="paragraph-light">
             Specializing in custom theme development. If you're a business
             seeking a web presence or are looking to hire, <a href="" className="link-light">contact me</a>

@@ -1,80 +1,76 @@
 import React from "react";
 
 import "./Portfolio.css";
+import placeholder from '../assets/mailchimp-Hv9CS6KZayQ-unsplash.jpg';
+import Button from "./UI/Button";
 
 const Portfolio = () => {
   return (
-    <div className="container px-4 py-5" id="custom-cards">
-      <h2 className="pb-2">Portfolio</h2>
-      <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-        <div className="col">
-          <div
-            className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
-            <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-              <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                Short title, long jacket
-              </h3>
-              <ul className="d-flex list-unstyled mt-auto">
-                <li className="me-auto">
-                  {/* <img
-                    src="https://github.com/twbs.png"
-                    alt="Bootstrap"
-                    width="32"
-                    height="32"
-                    className="rounded-circle border border-white"
-                  /> */}
-                </li>
-                <li className="d-flex align-items-center me-3">
-                  {/* <svg className="bi me-2" width="1em" height="1em">
-                    <use xlink:href="#geo-fill"></use>
-                  </svg> */}
-                  {/* <small>Earth</small> */}
-                </li>
-                <li className="d-flex align-items-center">
-                  {/* <svg className="bi me-2" width="1em" height="1em">
-                    <use xlink:href="#calendar3"></use>
-                  </svg> */}
-                  {/* <small>3d</small> */}
-                </li>
-              </ul>
-            </div>
+    <div className="container col-xl-10 px-4 py-5 text-center">
+      <h2 className="display-5 fw-bold mb-5">
+          My Work
+      </h2>
+      <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div className="col-10 col-sm-8 col-lg-6">
+          <img
+            src={placeholder}
+            className="d-block mx-lg-auto img-fluid"
+            alt="Shikhman website"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+        <div className="col-lg-6">
+          <h3 className="fs-1 fw-bold mb-4">
+            Shikhman
+          </h3>
+          <p className="lead">
+            Quickly design and customize responsive mobile-first sites with
+            Bootstrap, the world’s most popular front-end open source toolkit,
+            featuring Sass variables and mixins, responsive grid system,
+            extensive prebuilt components, and powerful JavaScript plugins.
+          </p>
+          <div className="py-3 mx-auto">
+            <Button type="button" className="btn btn-primary btn-lg px-4 me-md-2">
+              Primary
+            </Button>
+            <Button type="button" className="btn btn-outline-secondary btn-lg px-4">
+              Default
+            </Button>
           </div>
         </div>
-
-        <div className="col">
-          <div
-            className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
-            <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-              <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                Much longer title that wraps to multiple lines
-              </h3>
-              <ul className="d-flex list-unstyled mt-auto">
-                <li className="me-auto">
-                  {/* <img
-                    src="https://github.com/twbs.png"
-                    alt="Bootstrap"
-                    width="32"
-                    height="32"
-                    className="rounded-circle border border-white"
-                  /> */}
-                </li>
-                <li className="d-flex align-items-center me-3">
-                  {/* <svg className="bi me-2" width="1em" height="1em">
-                    <use xlink:href="#geo-fill"></use>
-                  </svg> */}
-                  {/* <small>Pakistan</small> */}
-                </li>
-                <li className="d-flex align-items-center">
-                  {/* <svg className="bi me-2" width="1em" height="1em">
-                    <use xlink:href="#calendar3"></use>
-                  </svg> */}
-                  {/* <small>4d</small> */}
-                </li>
-              </ul>
-            </div>
+      </div>
+      <div className="row flex-lg-row-reverse align-items-center g-5 py-5 me-auto">
+        <div className="col-lg-6">
+          <h3 className="fs-1 fw-bold mb-4">
+            Spark
+          </h3>
+          <p className="lead">
+            Quickly design and customize responsive mobile-first sites with
+            Bootstrap, the world’s most popular front-end open source toolkit,
+            featuring Sass variables and mixins, responsive grid system,
+            extensive prebuilt components, and powerful JavaScript plugins.
+          </p>
+          <div className="py-3 mx-auto">
+            <Button type="button" className="btn btn-primary btn-lg px-4 me-md-2">
+              Primary
+            </Button>
+            <Button type="button" className="btn btn-outline-secondary btn-lg px-4">
+              Default
+            </Button>
           </div>
         </div>
-
+        <div className="col-10 col-sm-8 col-lg-6">
+          <img
+            src={placeholder}
+            className="d-block mx-lg-auto img-fluid"
+            alt="Shikhman website"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
       </div>
     </div>
   );
