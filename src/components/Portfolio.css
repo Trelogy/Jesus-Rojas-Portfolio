@@ -1,0 +1,12 @@
+.lead {
+    font-size: 1.1rem;
+}
+
+.btn-outline-secondary {
+    border-color: #adb5bd;
+}
+
+.btn-outline-secondary:hover {
+    border-color: #adb5bd;
+    background-color: #adb5bd;
+}

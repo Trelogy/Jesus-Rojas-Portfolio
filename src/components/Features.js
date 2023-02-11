@@ -6,7 +6,7 @@ import Button from "./UI/Button";
 const Features = () => {
   return (
     <div className="container border-bottom" id="features">
-      <div className="row row-cols-1 row-cols-lg-3 text-center align-items-center">
+      <div id="scrollspyHeading2" className="row row-cols-1 row-cols-lg-3 text-center align-items-center pb-3">
         <div className="feature col pe-5 pt-2" id="feature1">
           <div className="pb-3 feature-icon d-inline-flex align-items-center justify-content-center mb-3">
             <i className="fa-solid fa-code fa-4x"></i>
@@ -57,9 +57,9 @@ const Features = () => {
           </p>
         </div>
       </div>
-      <div className="py-3 d-flex align-items-center justify-content-center">
-          <Button className="btn btn-outline-primary btn-lg">Learn more</Button>
-        </div>
+      {/* <div className="py-3 d-flex align-items-center justify-content-center">
+          <Button className="btn btn-outline-secondary btn-lg">Learn more</Button>
+        </div> */}
     </div>
   );
 };

@@ -1,0 +1,42 @@
+.form-control {
+    border-radius: .7rem;
+    border-color: #adb5bd;
+    background-color: transparent;
+}
+
+.inputs {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.textareas {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.textareas .fa-circle-xmark {
+    margin-top: .5rem;  
+}
+
+.fa-circle-xmark {
+    color: #adb5bd;
+    position: absolute;
+    z-index: 1;
+    margin-right: .5rem;
+    cursor: pointer;
+}
+
+.form-control::placeholder {
+    color: #6c757d!important;
+}
+
+.form-control:focus {
+    border-color: #9ec5fe;
+    box-shadow: 0 0 0 2px #9ec5fe!important;
+    background-color: transparent;
+}
+
