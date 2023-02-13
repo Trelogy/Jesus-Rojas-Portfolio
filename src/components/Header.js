@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 
 import MachineWritting from "./Animations/MachineWritting";
 import "./Header.css";
 import Button from "./UI/Button";
 
 const Header = () => {
+
 
   return (
     <div id="scrollspyHeading1" className="text-center text-bg-primary position-relative z-2">
@@ -18,15 +19,15 @@ const Header = () => {
           </h4>
           <p className="paragraph-light">
           Specialized in Back End development and web application programming M.E.A.N. stack and M.E.R.N stack. If you're a business
-          seeking a web presence or are looking to hire, <br /><a href="" className="link-light">contact me</a>
+          seeking a web presence or are looking to hire, <br /><a href="#scrollspyHeading4" className="link-light">contact me</a>
           </p>
           <div className="d-grid py-3 gap-2 d-sm-flex justify-content-sm-center">
-            <Button
+            <a href="#scrollspyHeading3"><Button
               type="button"
               className="btn btn-outline-light btn-lg gap-3"
             >
               View portfolio
-            </Button>
+            </Button></a>
           </div>
         </div>
       </div>

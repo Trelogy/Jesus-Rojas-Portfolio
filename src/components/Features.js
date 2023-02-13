@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./Features.css";
-import Button from "./UI/Button";
+// import Button from "./UI/Button";
 
 const Features = () => {
   return (

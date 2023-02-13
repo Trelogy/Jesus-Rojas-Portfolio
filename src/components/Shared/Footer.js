@@ -13,17 +13,17 @@ const Footer = () => {
 
         <ul className="nav col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto">
           <li className="nav-item">
-            <a href="#" className="nav-link px-2 text-muted footer-link">
+            <a href="https://discord.com/channels/@me/264645666326839296" target="_blank" rel="noreferrer" className="nav-link px-2 text-muted footer-link">
               <i className="fa-brands fa-discord"></i>
             </a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link px-2 text-muted footer-link">
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" className="nav-link px-2 text-muted footer-link">
               <i className="fa-brands fa-linkedin-in"></i>
             </a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link px-2 text-muted footer-link">
+            <a href="https://github.com/Trelogy" target="_blank" rel="noreferrer" className="nav-link px-2 text-muted footer-link">
               <i className="fa-brands fa-github"></i>
             </a>
           </li>

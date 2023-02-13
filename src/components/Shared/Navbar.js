@@ -1,6 +1,6 @@
 import React from "react";
 
-import searchIcon from '../../assets/search.svg';
+// import searchIcon from '../../assets/search.svg';
 import './NavBar.css';
 
 const NavBar = () => {
@@ -25,7 +25,7 @@ const NavBar = () => {
             <a className="nav-link" href="#scrollspyHeading2">Features</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link"  href="#scrollspyHeading3">Portafolio</a>
+            <a className="nav-link" href="#scrollspyHeading3">Portafolio</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#scrollspyHeading4">Contact</a>

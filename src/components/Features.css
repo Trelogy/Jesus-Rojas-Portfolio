@@ -21,4 +21,5 @@
 .feature-sub {
     color: #053273;
     transition: color .4s ease;
+    font-weight: 600;
 }
