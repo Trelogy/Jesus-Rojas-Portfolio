@@ -1,25 +1,46 @@
-#features {
+.features {
     padding: 5% 2%;
 }
 
 .feature-icon {
-    color: #053273;
+    color: #0d6efd;
+    transition: color .4s ease;
+}
+
+.icon-webflow-logo::before {
+    content: "\e900";
+    color: #0d6efd;
+    display: flex;
+    font-size: 3.7rem;
+    padding-bottom: .3rem;
     transition: color .4s ease;
 }
 
 #feature1, #feature2, #feature3 {
     cursor: default;
+    transition: all .4s ease;
 }
 
 #feature1:hover > .feature-icon, #feature1:hover > h4,
 #feature2:hover > .feature-icon, #feature2:hover > h4,
-#feature3:hover > .feature-icon, #feature3:hover > h4
+#feature3:hover > .feature-icon .icon-webflow-logo::before, #feature3:hover > h4
  {
-    color: #0d6efd;
+    color: #0a58ca;
+}
+
+p {
+    transition: color .4s ease;
+}
+
+#feature1:hover > p,
+#feature2:hover > p,
+#feature3:hover > p
+ {
+    color: #212529!important;
 }
 
 .feature-sub {
-    color: #053273;
+    color: #0d6efd;
     transition: color .4s ease;
     font-weight: 600;
 }

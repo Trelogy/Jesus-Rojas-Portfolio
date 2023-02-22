@@ -1,0 +1,59 @@
+.modal-header {
+    vertical-align: middle!important;
+    border: none;
+}
+
+.logos-stack {
+    width: 50px;
+}
+
+.logos-stack1 {
+    width: 42px;
+}
+
+.mean-stack, .mean-stack h3 {
+    transition: all .4s ease;
+}
+
+.mean-stack:hover {
+    filter: brightness(120%);
+    cursor: default;
+}
+
+.mean-stack:hover > h3 {
+    color: #1f1f1f!important; 
+}
+
+.mean-stack:hover > p {
+    color: #212529!important;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .order-box {
+        order: 1;
+    }
+    
+    .order-img {
+        order: 0;
+    }
+  }
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .order-box {
+        order: 1;
+    }
+    
+    .order-img {
+        order: 0;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .order-box {
+        order: 1;
+    }
+    
+    .order-img {
+        order: 0;
+    }
+  }

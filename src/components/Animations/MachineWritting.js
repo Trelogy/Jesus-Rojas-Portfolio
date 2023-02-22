@@ -1,5 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
+import { FormattedMessage } from "react-intl";
 
 import classes from './MachineWriting.module.css';
 

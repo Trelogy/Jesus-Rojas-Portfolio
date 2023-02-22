@@ -1,15 +1,15 @@
-import React, { Fragment } from "react";
-
+import React, { Fragment, useState } from "react";
 import Select from "react-select";
 
 import classes from "./Selection.module.css";
 
-const selection = [
-  { label: "English", value: "English" },
-  { label: "Spanish", value: "Spanish" },
-];
-
 const Selection = (props) => {
+  const [selected, setSelected] = useState(props.onSelect[0]);
+  
+  const selectChangeHandler = ({value}) => {
+    setSelected(value);
+  };
+
   const customStyles = {
     option: (defaultStyles, state) => ({
       ...defaultStyles,
@@ -49,21 +49,17 @@ const Selection = (props) => {
     }),
   };
 
-  const selectChangeHandler = ({ value }) => {
-    console.log(value);
-  };
-
   return (
     <Fragment>
-      <Select
+     <Select
         className={classes.selections}
-        defaultValue={selection[0]}
-        options={selection}
+        defaultValue={selected}
+        options={props.onSelect}
         styles={customStyles}
         isClearable={false}
         isSearchable={false}
-        onChange={selectChangeHandler}
-      />
+        onChange={selectChangeHandler}  
+      >{props.children}</Select>
     </Fragment>
   );
 };

@@ -11,8 +11,23 @@ footer {
   color: #343a40 !important;
 }
 
-.globe-icon {
-    vertical-align: middle;
+.flags {
+  width: 30px;
+  transition: opacity 0.4s ease;
+  opacity: 0.7;
+}
+
+.btn:hover > .flags {
+  opacity: 1;
+}
+
+.btn:focus > .flags {
+  opacity: 1;
+}
+
+.border-start {
+  border-left: 1.9px solid #ced4da!important;
+  border-radius: 0;
 }
 
 

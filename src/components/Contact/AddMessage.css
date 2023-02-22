@@ -1,0 +1,69 @@
+.form-control {
+  border-radius: 0.7rem;
+  border-color: #adb5bd;
+  background-color: transparent;
+}
+
+.inputs {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.textareas {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.textareas .erase-btn {
+  margin-top: 0.5rem;
+}
+
+.erase-btn {
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+  color: #adb5bd;
+  transition: color .4s ease;
+}
+
+.erase-btn:hover {
+  color: #6c757d !important;
+}
+
+.form-control::placeholder {
+  color: #6c757d !important;
+}
+
+.form-control:focus {
+  border-color: #9ec5fe;
+  box-shadow: 0 0 0 2px #9ec5fe !important;
+  background-color: transparent;
+}
+
+/* Validation class */
+
+.invalid input,
+.invalid textarea {
+  border-color: #b02a37 !important;
+  background-color: transparent;
+}
+
+.invalid input:focus,
+.invalid textarea:focus {
+  border-color: #b02a37 !important;
+  box-shadow: 0 0 0 2px #ea868f !important;
+  background-color: transparent;
+}
+
+.error-text {
+  color: #b02a37;
+  text-align: left;
+  padding: 0 14px;
+  margin: 0;
+  font-size: .85rem;
+}
+

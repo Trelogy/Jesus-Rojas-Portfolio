@@ -1,9 +1,13 @@
-import React from "react";
-import Selection from "../UI/Selection";
+import React, {useContext} from "react";
+import { langContext } from "../../context/langContext";
 
+import es from "../../assets/flag-spain.svg";
+import en from "../../assets/flag-usa.svg";
 import "./Footer.css";
 
 const Footer = () => {
+  const language = useContext(langContext);
+
   let copy = new Date().getFullYear();
 
   return (
@@ -30,9 +34,9 @@ const Footer = () => {
         </ul>
 
         <div className="nav col-md-4 justify-content-end">
-          <div className="custom-select d-flex align-items-center nav-item pe-0 footer-link">
-            <i className="globe-icon fa-solid fa-globe"></i>
-            <Selection className="colores" />
+          <div className="nav-item pe-0"> 
+            <button onClick={() => language.changeLanguage('es-ES')} className="btn" type="button"><img className="flags" alt="Spain" src={es} /></button>
+            <button onClick={() => language.changeLanguage('en-US')} className="btn pe-0 border-start" autofocus="true" type="button"><img className="flags" alt="Usa" src={en} /></button>
           </div>
         </div>
       </footer>

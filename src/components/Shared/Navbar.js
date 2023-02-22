@@ -1,4 +1,5 @@
 import React from "react";
+import { FormattedMessage } from "react-intl";
 
 // import searchIcon from '../../assets/search.svg';
 import './NavBar.css';
@@ -22,13 +23,16 @@ const NavBar = () => {
       <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
         <ul className="navbar-nav navbar-nav-scroll">
           <li className="nav-item">
-            <a className="nav-link" href="#scrollspyHeading2">Features</a>
+            <a className="nav-link" href="#scrollspyHeading2">
+            <FormattedMessage id="navbar.link1" defaultMessage="Features" /></a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#scrollspyHeading3">Portafolio</a>
+            <a className="nav-link" href="#scrollspyHeading3">
+            <FormattedMessage id="navbar.link2" defaultMessage="Portfolio" /></a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#scrollspyHeading4">Contact</a>
+            <a className="nav-link" href="#scrollspyHeading4">
+            <FormattedMessage id="navbar.link3" defaultMessage="Contact" /></a>
           </li>
           {/* <li className="nav-item">
             <a className="nav-link"><img src={searchIcon} alt="search icon" /></a>
