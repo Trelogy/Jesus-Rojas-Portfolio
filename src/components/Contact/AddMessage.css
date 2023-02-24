@@ -30,6 +30,10 @@
   transition: color .4s ease;
 }
 
+.erase-desapear {
+  display: none;
+}
+
 .erase-btn:hover {
   color: #6c757d !important;
 }

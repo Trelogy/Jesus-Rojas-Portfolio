@@ -1,6 +1,7 @@
 import React from "react";
 import useInput from "../../hooks/use-input";
 import { FormattedMessage, useIntl } from "react-intl";
+import emailjs from 'emailjs-com';
 
 import "./AddMessage.css";
 import Button from "../UI/Button";
@@ -64,8 +65,14 @@ const AddMessage = (props) => {
     if (!formIsValid) {
       return;
     }
-    console.log("Submitted!");
-    console.log(enteredName, enteredEmail, enteredSubject, enteredMessage);
+
+    emailjs.sendForm('service_gd4c1ok','template_y9lprxh',event.target,'mv57qxL4i_rHCCEMd').then((result) => {
+      console.log(result.text);
+    }, (error) => {
+      console.log(error.text);
+    });
+    // console.log("Submitted!");
+    // console.log(enteredName, enteredEmail, enteredSubject, enteredMessage);
     resetNameInput();
     resetEmailInput();
     resetSubjectInput();
@@ -120,6 +127,7 @@ const AddMessage = (props) => {
               type="text"
               className="form-control"
               id="name"
+              name="name"
               placeholder={intl.formatMessage({
                 id: "contact.inputName",
                 defaultMessage: "Name",
@@ -144,6 +152,7 @@ const AddMessage = (props) => {
               type="email"
               className="form-control"
               id="email"
+              name="email"
               placeholder={intl.formatMessage({
                 id: "contact.inputEmail",
                 defaultMessage: "Email",
@@ -168,6 +177,7 @@ const AddMessage = (props) => {
               type="text"
               className="form-control"
               id="subject"
+              name="subject"
               placeholder={intl.formatMessage({
                 id: "contact.inputSubject",
                 defaultMessage: "Subject",
@@ -191,6 +201,7 @@ const AddMessage = (props) => {
             <textarea
               className="form-control"
               id="message"
+              name="message"
               rows="5"
               placeholder={intl.formatMessage({
                 id: "contact.inputMessage",

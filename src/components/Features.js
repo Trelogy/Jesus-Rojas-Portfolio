@@ -1,7 +1,6 @@
 import React from "react";
 import { FormattedMessage } from "react-intl";
 
-
 import "./Features.css";
 
 const Features = () => {
@@ -72,7 +71,7 @@ const Features = () => {
         </div>
         <div className="feature col pt-2" id="feature3">
           <div className="pb-3 feature-icon d-inline-flex align-items-center justify-content-center mb-3">
-            <span class="icon-webflow-logo"></span>
+            <span className="icon-webflow-logo"></span>
           </div>
           <h3 className="fs-2 mb-4">
             <FormattedMessage
