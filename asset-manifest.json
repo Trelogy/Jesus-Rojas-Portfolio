@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Jesus-Rojas-Portfolio/static/css/main.13ba5b97.css",
+    "main.js": "/Jesus-Rojas-Portfolio/static/js/main.bc82fcaa.js",
+    "static/media/flag-spain.svg": "/Jesus-Rojas-Portfolio/static/media/flag-spain.963cb8206e74d57de1910cd153a33835.svg",
+    "static/media/Shikhman.PNG": "/Jesus-Rojas-Portfolio/static/media/Shikhman.7767a4f3a0faea8055d3.PNG",
+    "static/media/Spark.PNG": "/Jesus-Rojas-Portfolio/static/media/Spark.90e8b678d8b74e7cdffb.PNG",
+    "static/media/flag-usa.svg": "/Jesus-Rojas-Portfolio/static/media/flag-usa.58106ffd8df0afda52af10eebb4479b7.svg",
+    "static/media/angular-logo.svg": "/Jesus-Rojas-Portfolio/static/media/angular-logo.bfb082d45fe0eb9848e2ed8c159efb9f.svg",
+    "static/media/mongo-logo.svg": "/Jesus-Rojas-Portfolio/static/media/mongo-logo.ba4a6edb0a69c12cf4e02611a5ca5be3.svg",
+    "static/media/firebase-logo.svg": "/Jesus-Rojas-Portfolio/static/media/firebase-logo.abc79ccace7ad2b47056fb2a88d99ba1.svg",
+    "static/media/firestore-logo.svg": "/Jesus-Rojas-Portfolio/static/media/firestore-logo.86e619322338a6609c288508cf8b9b9b.svg",
+    "static/media/nodejs-logo.svg": "/Jesus-Rojas-Portfolio/static/media/nodejs-logo.2a81e28ee6002a057af44acfe57b183a.svg",
+    "static/media/express-logo.svg": "/Jesus-Rojas-Portfolio/static/media/express-logo.571269ccaf2df9a17abb01aae6fc4320.svg",
+    "index.html": "/Jesus-Rojas-Portfolio/index.html",
+    "static/media/icomoon.eot?xt9h09": "/Jesus-Rojas-Portfolio/static/media/icomoon.124cc229daf285889d5b.eot",
+    "static/media/icomoon.woff?xt9h09": "/Jesus-Rojas-Portfolio/static/media/icomoon.60f3d95c250681ae5f61.woff",
+    "static/media/icomoon.ttf?xt9h09": "/Jesus-Rojas-Portfolio/static/media/icomoon.1ed030db83398dbe54b2.ttf",
+    "static/media/icomoon.svg?xt9h09": "/Jesus-Rojas-Portfolio/static/media/icomoon.cf2b0b6805a6ff663d3a.svg",
+    "main.13ba5b97.css.map": "/Jesus-Rojas-Portfolio/static/css/main.13ba5b97.css.map",
+    "main.bc82fcaa.js.map": "/Jesus-Rojas-Portfolio/static/js/main.bc82fcaa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13ba5b97.css",
+    "static/js/main.bc82fcaa.js"
+  ]
+}
