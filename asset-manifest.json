@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Jesus-Rojas-Portfolio/static/css/main.13ba5b97.css",
-    "main.js": "/Jesus-Rojas-Portfolio/static/js/main.bc82fcaa.js",
+    "main.js": "/Jesus-Rojas-Portfolio/static/js/main.fc9bb6a3.js",
     "static/media/flag-spain.svg": "/Jesus-Rojas-Portfolio/static/media/flag-spain.963cb8206e74d57de1910cd153a33835.svg",
     "static/media/Shikhman.PNG": "/Jesus-Rojas-Portfolio/static/media/Shikhman.7767a4f3a0faea8055d3.PNG",
     "static/media/Spark.PNG": "/Jesus-Rojas-Portfolio/static/media/Spark.90e8b678d8b74e7cdffb.PNG",
@@ -18,10 +18,10 @@
     "static/media/icomoon.ttf?xt9h09": "/Jesus-Rojas-Portfolio/static/media/icomoon.1ed030db83398dbe54b2.ttf",
     "static/media/icomoon.svg?xt9h09": "/Jesus-Rojas-Portfolio/static/media/icomoon.cf2b0b6805a6ff663d3a.svg",
     "main.13ba5b97.css.map": "/Jesus-Rojas-Portfolio/static/css/main.13ba5b97.css.map",
-    "main.bc82fcaa.js.map": "/Jesus-Rojas-Portfolio/static/js/main.bc82fcaa.js.map"
+    "main.fc9bb6a3.js.map": "/Jesus-Rojas-Portfolio/static/js/main.fc9bb6a3.js.map"
   },
   "entrypoints": [
     "static/css/main.13ba5b97.css",
-    "static/js/main.bc82fcaa.js"
+    "static/js/main.fc9bb6a3.js"
   ]
 }
