@@ -7,7 +7,7 @@ import "./Header.css";
 
 const Header = (props) => {
   const animationText =[
-    "Hello",
+    "Greetings",
     "I'm",
     "Jesus Rojas<br>Web Developer",
     "Saludos",
