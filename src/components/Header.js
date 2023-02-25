@@ -11,7 +11,7 @@ const Header = (props) => {
     "I'm",
     "Jesus Rojas<br>Web Developer",
     "Saludos",
-    "Yo Soy",
+    "Soy",
     "Jesus Rojas<br>Desarrollador Web",
   ]
 
