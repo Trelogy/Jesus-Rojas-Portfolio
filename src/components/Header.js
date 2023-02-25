@@ -5,7 +5,16 @@ import MachineWritting from "./Animations/MachineWritting";
 import Button from "./UI/Button";
 import "./Header.css";
 
-const Header = () => {
+const Header = (props) => {
+  const animationText =[
+    "Hello",
+    "I'm",
+    "Jesus Rojas<br>Web Developer",
+    "Saludos",
+    "Yo Soy",
+    "Jesus Rojas<br>Desarrollador Web",
+  ]
+
   return (
     <div
       id="scrollspyHeading1"
@@ -13,11 +22,10 @@ const Header = () => {
     >
       <div className="cover-container px-5 py-5 header-mobile">
         <div className="box">
-          <MachineWritting className="display-4 fw-bold" />
+          <MachineWritting onChange={animationText} className="display-4 fw-bold" />
         </div>
         <div className="col-lg-6 mx-auto">
           <h4 className="pt-2 mb-4">
-            {/* Front End Developer / Back End Developer */}
             <FormattedMessage
               id="header.subTitle"
               defaultMessage="Front End Developer / Back End Developer"

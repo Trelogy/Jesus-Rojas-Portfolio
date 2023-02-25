@@ -1,10 +1,10 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import { FormattedMessage } from "react-intl";
 
 import classes from './MachineWriting.module.css';
 
 const MachineWritting = (props) => {
+
     return (
         <h1 className={`${classes.title} ${props.className}`}>
             <Typewriter
@@ -14,16 +14,25 @@ const MachineWritting = (props) => {
             }}
             onInit={(typewriter)=> {
                 typewriter
-                .typeString("Hello")
+                .typeString(props.onChange[0])
                 .pauseFor(500)
                 .deleteAll()
-                .typeString("I'm")
+                .typeString(props.onChange[1])
                 .pauseFor(100)
                 .deleteAll()
-                .typeString("Jesus Rojas Web Developer")
+                .typeString(props.onChange[2])
+                .pauseFor(5000)
+                .deleteAll()
+                .typeString(props.onChange[3])
+                .pauseFor(500)
+                .deleteAll()
+                .typeString(props.onChange[4])
+                .pauseFor(100)
+                .deleteAll()
+                .typeString(props.onChange[5])
                 .pauseFor(5000)
                 .start();
-            }}>{props.children}</Typewriter>
+            }}/>
         </h1>
     );
 };

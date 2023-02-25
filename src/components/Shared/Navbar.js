@@ -1,7 +1,6 @@
 import React from "react";
 import { FormattedMessage } from "react-intl";
 
-// import searchIcon from '../../assets/search.svg';
 import './NavBar.css';
 
 const NavBar = () => {
@@ -34,9 +33,6 @@ const NavBar = () => {
             <a className="nav-link" href="#scrollspyHeading4">
             <FormattedMessage id="navbar.link3" defaultMessage="Contact" /></a>
           </li>
-          {/* <li className="nav-item">
-            <a className="nav-link"><img src={searchIcon} alt="search icon" /></a>
-          </li> */}
         </ul>
       </div>
     </nav>

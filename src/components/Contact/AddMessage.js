@@ -6,7 +6,7 @@ import emailjs from 'emailjs-com';
 import "./AddMessage.css";
 import Button from "../UI/Button";
 
-const AddMessage = (props) => {
+const AddMessage = () => {
   const intl = useIntl();
   const isNotEmpty = (value) => value.trim() !== "";
   const isEmail = (value) =>
@@ -59,6 +59,10 @@ const AddMessage = (props) => {
     formIsValid = true;
   }
 
+  const serviceID = process.env.REACT_APP_SERVICE_ID
+  const templateID = process.env.REACT_APP_TEMPLATE_ID
+  const publicKEY = process.env.REACT_APP_PUBLIC_KEY
+
   const formSubmitHandler = (event) => {
     event.preventDefault();
 
@@ -66,13 +70,11 @@ const AddMessage = (props) => {
       return;
     }
 
-    emailjs.sendForm('service_gd4c1ok','template_y9lprxh',event.target,'mv57qxL4i_rHCCEMd').then((result) => {
+    emailjs.sendForm(serviceID,templateID,event.target,publicKEY).then((result) => {
       console.log(result.text);
     }, (error) => {
       console.log(error.text);
     });
-    // console.log("Submitted!");
-    // console.log(enteredName, enteredEmail, enteredSubject, enteredMessage);
     resetNameInput();
     resetEmailInput();
     resetSubjectInput();
@@ -139,7 +141,7 @@ const AddMessage = (props) => {
             />
             {enteredName && (
               <button className="btn erase-btn" onClick={resetNameInput}>
-                <i className="fa-sharp fa-solid fa-circle-xmark"></i>
+                <i class="fa-solid fa-xmark"></i>
               </button>
             )}
           </div>
@@ -164,7 +166,7 @@ const AddMessage = (props) => {
             />
             {enteredEmail && (
               <button className="btn erase-btn" onClick={resetEmailInput}>
-                <i className="fa-sharp fa-solid fa-circle-xmark"></i>
+                <i class="fa-solid fa-xmark"></i>
               </button>
             )}
           </div>
@@ -189,7 +191,7 @@ const AddMessage = (props) => {
             />
             {enteredSubject && (
               <button className="btn erase-btn" onClick={resetSubjectInput}>
-                <i className="fa-sharp fa-solid fa-circle-xmark"></i>
+                <i class="fa-solid fa-xmark"></i>
               </button>
             )}
           </div>
@@ -214,7 +216,7 @@ const AddMessage = (props) => {
             ></textarea>
             {enteredMessage && (
               <button className="btn erase-btn" onClick={resetMessageInput}>
-                <i className="fa-sharp fa-solid fa-circle-xmark"></i>
+                <i class="fa-solid fa-xmark"></i>
               </button>
             )}
           </div>

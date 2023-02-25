@@ -50,6 +50,11 @@
 
 /* Validation class */
 
+.invalid button,
+.invalid i {
+  color: #b02a37;
+}
+
 .invalid input,
 .invalid textarea {
   border-color: #b02a37 !important;
