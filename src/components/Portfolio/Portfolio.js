@@ -35,7 +35,7 @@ const Portfolio = (props) => {
             />
           </p>
           <div className="py-3 mx-auto">
-            <a href={webOne.link} target="_blank" rel="noreferrer">
+            <a href="" target="_blank" rel="noreferrer">
               <Button type="button" className="btn btn-primary btn-lg me-3">
                 <FormattedMessage
                   id="portfolio.btnPreview"

@@ -12,7 +12,6 @@ import nodejs from "../../assets/nodejs-logo.svg";
 const webOne = {
   id: Math.random().toString(),
   name: "Shikhman",
-  link: "https://shikhman.org/Shikhman",
 };
 
 const PortfolioContentOne = (props) => {
@@ -98,7 +97,7 @@ const PortfolioContentOne = (props) => {
         </div>
         <div className="modal-footer flex-nowrap justify-content-center border-top pt-3">
           <a
-            href={webOne.link}
+            href=""
             target="_blank"
             rel="noreferrer"
           >
