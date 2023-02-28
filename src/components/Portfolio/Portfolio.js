@@ -1,6 +1,7 @@
 import React from "react";
 import { FormattedMessage } from "react-intl";
 import { webOne } from "./PortfolioContentOne";
+import { webTwo } from "./PortfolioContentTwo";
 import Button from "../UI/Button";
 
 import "./Portfolio.css";
@@ -24,7 +25,7 @@ const Portfolio = (props) => {
           />
         </div>
         <div className="col-lg-6">
-          <h3 className="fs-1 fw-bold mb-4">Shikhman</h3>
+          <h3 className="fs-1 fw-bold mb-4">{webOne.name}</h3>
           <p className="lead">
             <FormattedMessage
               id="portfolio.pargraph1"
@@ -57,7 +58,7 @@ const Portfolio = (props) => {
       </div>
       <div className="row flex-lg-row-reverse align-items-center g-5 py-5 mb-3 me-auto">
         <div className="order-box col-lg-6">
-          <h3 className="fs-1 fw-bold mb-4">Spark</h3>
+          <h3 className="fs-1 fw-bold mb-4">{webTwo.name}</h3>
           <p className="lead">
             <FormattedMessage
               id="portfolio.pargraph2"
@@ -67,12 +68,13 @@ const Portfolio = (props) => {
             />
           </p>
           <div className="py-3 mx-auto">
+          <a href={webTwo.link} target="_blank" rel="noreferrer">
             <Button type="button" className="btn btn-primary btn-lg px-4 me-3">
               <FormattedMessage
                 id="portfolio.btnPreview"
                 defaultMessage="Preview"
               />
-            </Button>
+            </Button></a>
             <Button
               type="button"
               onClick={props.onShowMore}

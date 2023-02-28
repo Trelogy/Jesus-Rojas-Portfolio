@@ -11,7 +11,7 @@ import firestore from "../../assets/firestore-logo.svg";
 const webTwo = {
   id: Math.random().toString(),
   name: "Spark",
-  link: "https://shikhman.org/Shikhman",
+  link: "https://sparkwebsite-67b8b.web.app/spark",
 };
 
 const PortfolioContentTwo = (props) => {
