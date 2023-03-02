@@ -15,7 +15,16 @@ const ModalOverlay = (props) => {
   );
 };
 
+const Overlay = (props) => {
+  return (
+    <div className={`${classes.modal2} ${props.className}`}>
+      {props.children}
+    </div>
+  );
+};
+
 const portalElementB = document.getElementById("backdrop");
+const portalElementM = document.getElementById("modal");
 const portalElementO = document.getElementById("overlays");
 
 const Modal = (props) => {
@@ -27,10 +36,25 @@ const Modal = (props) => {
       )}
       {ReactDOM.createPortal(
         <ModalOverlay>{props.children}</ModalOverlay>,
+        portalElementM
+      )}
+    </Fragment>
+  );
+};
+
+const BackdropO = (props) => {
+  return (
+    <Fragment>
+      {ReactDOM.createPortal(
+        <Backdrop onHideMore={props.onHideMore} />,
+        portalElementB
+      )}
+       {ReactDOM.createPortal(
+        <Overlay>{props.children}</Overlay>,
         portalElementO
       )}
     </Fragment>
   );
 };
 
-export default Modal;
+export {Modal, BackdropO};

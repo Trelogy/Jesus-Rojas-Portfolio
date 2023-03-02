@@ -10,3 +10,22 @@
     border-color: #adb5bd;
     background-color: #adb5bd;
 }
+
+.carousel-pics {
+   filter:  brightness(95%);
+   border-radius: 0.5rem;
+}
+
+.carousel-button {
+    transition: transform 0.4s ease;;
+}
+
+.carousel-button:hover {
+    transform: scale(1.05);
+}
+
+.carousel-button:active,
+.carousel-button:focus  {
+    border: none;
+    transform: scale(1);
+}

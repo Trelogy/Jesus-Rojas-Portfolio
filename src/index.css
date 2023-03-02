@@ -1,87 +1,93 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700;900&display=swap");
 
 @font-face {
-    font-family: 'icomoon';
-    src:  url('../src/assets/fonts/icomoon.eot?xt9h09');
-    src:  url('../src/assets/fonts/icomoon.eot?xt9h09#iefix') format('embedded-opentype'),
-      url('../src/assets/fonts/icomoon.ttf?xt9h09') format('truetype'),
-      url('../src/assets/fonts/icomoon.woff?xt9h09') format('woff'),
-      url('../src/assets/fonts/icomoon.svg?xt9h09#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-  }
-  
-  [class^="icon-"], [class*=" icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'icomoon' !important;
-    speak: never;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-  
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
-  .icon-webflow-logo:before {
-    content: "\e900";
-    color: #0d6efd;
+  font-family: "icomoon";
+  src: url("../src/assets/fonts/icomoon.eot?xt9h09");
+  src: url("../src/assets/fonts/icomoon.eot?xt9h09#iefix")
+      format("embedded-opentype"),
+    url("../src/assets/fonts/icomoon.ttf?xt9h09") format("truetype"),
+    url("../src/assets/fonts/icomoon.woff?xt9h09") format("woff"),
+    url("../src/assets/fonts/icomoon.svg?xt9h09#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
 }
-  
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-webflow-logo:before {
+  content: "\e900";
+  color: #0d6efd;
+}
 
 html {
-    min-height: 100%;
-    position: relative;
+  min-height: 100%;
+  position: relative;
 }
 
 body {
-    font-family: 'Titillium Web', sans-serif;
-    background-color: #f8f9fa;
-    /* background-color: white; */
-    margin: 0;
-    height: 100vh;
+  font-family: "Titillium Web", sans-serif;
+  background-color: #f8f9fa;
+  /* background-color: white; */
+  margin: 0;
+  height: 100vh;
 }
 
 h2 {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: 700;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
 }
 
 h3 {
-    font-weight: 700;
-    font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 700;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 h4 {
-    font-size: 1.5rem;
-    font-weight: 500;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 .cover-container {
-    background: linear-gradient(rgba(255,255,255, 0),rgba(0, 0, 0, 0.2))!important;
-    opacity: transparent;
-    height: auto;
-    overflow: visible;
-    top: 0;
-    left: 0;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0),
+    rgba(0, 0, 0, 0.2)
+  ) !important;
+  opacity: transparent;
+  height: auto;
+  overflow: visible;
+  top: 0;
+  left: 0;
 }
 
 .cover-container-white {
-    background: linear-gradient(rgba(255,255,255, 0),rgba(199, 199, 199, 0.3))!important;
-    opacity: transparent;
-    height: auto;
-    overflow: visible;
-    top: 0;
-    left: 0;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0),
+    rgba(199, 199, 199, 0.3)
+  ) !important;
+  opacity: transparent;
+  height: auto;
+  overflow: visible;
+  top: 0;
+  left: 0;
 }
 
 .scrolling-body {
-    overflow-y: scroll;
-    height: auto;
+  overflow-y: scroll;
+  height: auto;
 }
-

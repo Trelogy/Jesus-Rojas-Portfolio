@@ -1,7 +1,7 @@
 import React from "react";
 import { FormattedMessage } from "react-intl";
 
-import Modal from "../UI/Modal";
+import { Modal } from "../UI/Modal";
 import Button from "../UI/Button";
 import "./PortfolioContentModal.css";
 import mongo from "../../assets/mongo-logo.svg";
@@ -16,7 +16,7 @@ const webOne = {
 
 const PortfolioContentOne = (props) => {
   return (
-    <Modal onHideModal={props.onHideModal}>
+    <Modal onHideMore={props.onHideModal}>
       <div className="position-static d-block py-1 px-3" id="modalSheet">
         <div className="modal-header mb-4">
           <h2 className="modal-title mx-auto fs-2">{webOne.name}</h2>
@@ -96,18 +96,12 @@ const PortfolioContentOne = (props) => {
           </p>
         </div>
         <div className="modal-footer flex-nowrap justify-content-center border-top pt-3">
-          <a
-            href=""
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Button type="button" className="btn btn-lg btn-primary px-4 me-3">
-              <FormattedMessage
-                id="portfolio.btnPreview"
-                defaultMessage="Preview"
-              />
-            </Button>
-          </a>
+          <Button type="button" className="btn btn-lg btn-primary px-4 me-3">
+            <FormattedMessage
+              id="portfolio.btnPreview"
+              defaultMessage="Preview"
+            />
+          </Button>
           <Button
             type="button"
             className="btn btn-lg btn-outline-primary px-4"

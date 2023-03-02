@@ -223,7 +223,7 @@ const AddMessage = () => {
           {messageInputHasError && errM[3]}
         </div>
         <div className="pt-3">
-          <Button className="btn btn-primary btn-lg" type="submit">
+          <Button className="btn btn-primary btn-lg" type="submit" disabled={!formIsValid}>
             <FormattedMessage id="contact.btn" defaultMessage="Send message" />
           </Button>
         </div>

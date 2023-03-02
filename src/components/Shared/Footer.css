@@ -11,14 +11,19 @@ footer {
   color: #343a40 !important;
 }
 
+.cancel-border {
+  border: none;
+}
+
 .flags {
-  width: 30px;
+  width: 1.875rem;
   transition: opacity 0.4s ease;
   opacity: 0.7;
+  border: none;
 }
 
 .btn:hover > .flags {
-  opacity: 1;
+  opacity: 1; 
 }
 
 .btn:focus > .flags {

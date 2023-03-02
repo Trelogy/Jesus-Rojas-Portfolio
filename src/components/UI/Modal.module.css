@@ -1,40 +1,85 @@
 .backdrop {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    z-index: 2000;
-    background-color: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 2000;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.modal1 {
+  position: fixed;
+  top: 15vh;
+  left: 5%;
+  width: 90%;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 3000;
+  animation: slide-down 300ms ease-out forwards;
+}
+
+.modal2 {
+  position: fixed;
+  top: calc(25% - 1rem);
+  left: 5%;
+  width: 90%;
+  background-color: transparent !important;
+  padding: 1rem 4.5rem;
+  z-index: 3000;
+  animation: slide-down 300ms ease-out forwards;
+}
+
+@media (min-width: 1281px) {
+  .modal2 {
+    top: calc(50% - 20rem) !important;
   }
-  
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .modal2 {
+    top: calc(50% - 15rem) !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .modal2 {
+    top: calc(50% - 10rem);
+  }
+}
+
+@media (min-width: 768px) {
   .modal1 {
-    position: fixed;
-    top: 15vh;
-    left: 5%;
-    width: 90%;
-    background-color: white;
-    padding: 1rem;
-    border-radius: 1.5rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
-    z-index: 3000;
-    animation: slide-down 300ms ease-out forwards;
+    width: 40rem;
+    left: calc(50% - 20rem);
   }
-  
-  @media (min-width: 768px) {
-    .modal1 {
-      width: 40rem;
-      left: calc(50% - 20rem);
-    }
+  .modal2 {
+    top: calc(50% - 10rem);
   }
-  
-  @keyframes slide-down {
-    from {
-      opacity: 0;
-      transform: translateY(-3rem);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
+}
+
+@media (max-width: 767px) {
+  .modal2 {
+    top: calc(50% - 5rem);
   }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .modal2 {
+    top: calc(50% - 5rem);
+    left: calc(50% - 8.2rem);
+  }
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

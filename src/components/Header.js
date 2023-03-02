@@ -13,7 +13,7 @@ const Header = (props) => {
     "Saludos",
     "Soy",
     "Jesus Rojas<br>Desarrollador Web",
-  ]
+  ];
 
   return (
     <div

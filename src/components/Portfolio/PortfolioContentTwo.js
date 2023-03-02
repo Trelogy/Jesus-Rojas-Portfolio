@@ -1,7 +1,7 @@
 import React from "react";
 import { FormattedMessage } from "react-intl";
 
-import Modal from "../UI/Modal";
+import { Modal } from "../UI/Modal";
 import Button from "../UI/Button";
 import "./PortfolioContentModal.css";
 import angular from "../../assets/angular-logo.svg";
