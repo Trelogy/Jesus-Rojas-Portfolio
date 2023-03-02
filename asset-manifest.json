@@ -1,10 +1,22 @@
 {
   "files": {
-    "main.css": "/Jesus-Rojas-Portfolio/static/css/main.13ba5b97.css",
-    "main.js": "/Jesus-Rojas-Portfolio/static/js/main.92b7de4a.js",
+    "main.css": "/Jesus-Rojas-Portfolio/static/css/main.ff6047f1.css",
+    "main.js": "/Jesus-Rojas-Portfolio/static/js/main.420d8b57.js",
+    "static/media/EditCollection.PNG": "/Jesus-Rojas-Portfolio/static/media/EditCollection.273d3d944c5c6de885e1.PNG",
+    "static/media/Works.PNG": "/Jesus-Rojas-Portfolio/static/media/Works.645c53ccfa7a53e0af10.PNG",
+    "static/media/EditWork.PNG": "/Jesus-Rojas-Portfolio/static/media/EditWork.20b3d125e7023cae0743.PNG",
+    "static/media/Shikhman.PNG": "/Jesus-Rojas-Portfolio/static/media/Shikhman.422c34f0a2615e1e7e08.PNG",
     "static/media/flag-spain.svg": "/Jesus-Rojas-Portfolio/static/media/flag-spain.963cb8206e74d57de1910cd153a33835.svg",
-    "static/media/Shikhman.PNG": "/Jesus-Rojas-Portfolio/static/media/Shikhman.7767a4f3a0faea8055d3.PNG",
+    "static/media/Collections.PNG": "/Jesus-Rojas-Portfolio/static/media/Collections.5ab7522092da2909e099.PNG",
+    "static/media/EditFolder.PNG": "/Jesus-Rojas-Portfolio/static/media/EditFolder.cf597a7550ebbb0cec5b.PNG",
+    "static/media/SocialLibrary.PNG": "/Jesus-Rojas-Portfolio/static/media/SocialLibrary.d3aa99b85ed62aabac99.PNG",
     "static/media/Spark.PNG": "/Jesus-Rojas-Portfolio/static/media/Spark.90e8b678d8b74e7cdffb.PNG",
+    "static/media/Share.png": "/Jesus-Rojas-Portfolio/static/media/Share.fb2984d6c011f52b79c5.png",
+    "static/media/Coins.png": "/Jesus-Rojas-Portfolio/static/media/Coins.2be808ee5442ac84de75.png",
+    "static/media/Answers.png": "/Jesus-Rojas-Portfolio/static/media/Answers.95891c74aacf5b260545.png",
+    "static/media/Categories.png": "/Jesus-Rojas-Portfolio/static/media/Categories.00e8b17648f6e56947ab.png",
+    "static/media/History.png": "/Jesus-Rojas-Portfolio/static/media/History.e94ccdcb96856aa28d34.png",
+    "static/media/Login.png": "/Jesus-Rojas-Portfolio/static/media/Login.27fedaa69794548b28ee.png",
     "static/media/flag-usa.svg": "/Jesus-Rojas-Portfolio/static/media/flag-usa.58106ffd8df0afda52af10eebb4479b7.svg",
     "static/media/angular-logo.svg": "/Jesus-Rojas-Portfolio/static/media/angular-logo.bfb082d45fe0eb9848e2ed8c159efb9f.svg",
     "static/media/mongo-logo.svg": "/Jesus-Rojas-Portfolio/static/media/mongo-logo.ba4a6edb0a69c12cf4e02611a5ca5be3.svg",
@@ -17,11 +29,11 @@
     "static/media/icomoon.woff?xt9h09": "/Jesus-Rojas-Portfolio/static/media/icomoon.60f3d95c250681ae5f61.woff",
     "static/media/icomoon.ttf?xt9h09": "/Jesus-Rojas-Portfolio/static/media/icomoon.1ed030db83398dbe54b2.ttf",
     "static/media/icomoon.svg?xt9h09": "/Jesus-Rojas-Portfolio/static/media/icomoon.cf2b0b6805a6ff663d3a.svg",
-    "main.13ba5b97.css.map": "/Jesus-Rojas-Portfolio/static/css/main.13ba5b97.css.map",
-    "main.92b7de4a.js.map": "/Jesus-Rojas-Portfolio/static/js/main.92b7de4a.js.map"
+    "main.ff6047f1.css.map": "/Jesus-Rojas-Portfolio/static/css/main.ff6047f1.css.map",
+    "main.420d8b57.js.map": "/Jesus-Rojas-Portfolio/static/js/main.420d8b57.js.map"
   },
   "entrypoints": [
-    "static/css/main.13ba5b97.css",
-    "static/js/main.92b7de4a.js"
+    "static/css/main.ff6047f1.css",
+    "static/js/main.420d8b57.js"
   ]
 }
