@@ -22,7 +22,7 @@ const Footer = () => {
             </a>
           </li>
           <li className="nav-item">
-            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" className="nav-link px-2 text-muted footer-link">
+            <a href="https://www.linkedin.com/in/jesus-rojas-web-developer/" target="_blank" rel="noreferrer" className="nav-link px-2 text-muted footer-link">
               <i className="fa-brands fa-linkedin-in"></i>
             </a>
           </li>
