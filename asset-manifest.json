@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Jesus-Rojas-Portfolio/static/css/main.ff6047f1.css",
-    "main.js": "/Jesus-Rojas-Portfolio/static/js/main.420d8b57.js",
+    "main.js": "/Jesus-Rojas-Portfolio/static/js/main.6fa17dc2.js",
     "static/media/EditCollection.PNG": "/Jesus-Rojas-Portfolio/static/media/EditCollection.273d3d944c5c6de885e1.PNG",
     "static/media/Works.PNG": "/Jesus-Rojas-Portfolio/static/media/Works.645c53ccfa7a53e0af10.PNG",
     "static/media/EditWork.PNG": "/Jesus-Rojas-Portfolio/static/media/EditWork.20b3d125e7023cae0743.PNG",
@@ -30,10 +30,10 @@
     "static/media/icomoon.ttf?xt9h09": "/Jesus-Rojas-Portfolio/static/media/icomoon.1ed030db83398dbe54b2.ttf",
     "static/media/icomoon.svg?xt9h09": "/Jesus-Rojas-Portfolio/static/media/icomoon.cf2b0b6805a6ff663d3a.svg",
     "main.ff6047f1.css.map": "/Jesus-Rojas-Portfolio/static/css/main.ff6047f1.css.map",
-    "main.420d8b57.js.map": "/Jesus-Rojas-Portfolio/static/js/main.420d8b57.js.map"
+    "main.6fa17dc2.js.map": "/Jesus-Rojas-Portfolio/static/js/main.6fa17dc2.js.map"
   },
   "entrypoints": [
     "static/css/main.ff6047f1.css",
-    "static/js/main.420d8b57.js"
+    "static/js/main.6fa17dc2.js"
   ]
 }
